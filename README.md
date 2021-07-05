@@ -1,5 +1,7 @@
 # Codility Challenges
-My C++ solutions to Codility Challenges. Idea from: [pavlobcn/CodilityChallenge](https://github.com/pavlobcn/CodilityChallenge)
+My C++ solutions to [Codility Challenges](https://app.codility.com/programmers/challenges/). 
+
+Idea from: [pavlobcn/CodilityChallenge](https://github.com/pavlobcn/CodilityChallenge)
 
 | Challenge | TaskName | Language | Certificate | Place | Score (%) | Sources |
 | :-- | :-- | :-- | :-- | --:| --: | :-- | 
