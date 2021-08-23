@@ -1,4 +1,5 @@
 #include <limits>       // std::numeric_limits
+#include <algorithm>    // std::min_element
 
 vector<int> GetRowColSums(vector<int> &A) {
     vector<int> row_col_sums(6,0);
@@ -32,11 +33,6 @@ vector<int> GetCrossSums(vector<int> &A) {
 }
 
 vector<int> solution(vector<int> &A) {
-    //std::cout << "Question:" << std::endl;
-    //for(int i=0; i<9; i++) {
-    //    std::cout << A[i] << ", ";
-    //}
-    //std::cout << std::endl;
     while(true) {
         //Check final condition reached
         auto row_col_sums = GetRowColSums(A);
@@ -53,41 +49,20 @@ vector<int> solution(vector<int> &A) {
             break;
         }
 
+        int max_sum = *std::max_element(row_col_sums.begin(), row_col_sums.end());
+
         //Get cross sums
         auto cross_sums = GetCrossSums(A);
-        //Get min and next to min values
-        int min_val = std::numeric_limits<int>::max();
-        for(int i=0; i<9; i++) {
-            if(min_val > cross_sums[i]) {
-                min_val = cross_sums[i];
-            }
-        }
-        int next_to_min_val = std::numeric_limits<int>::max();
-        for(int i=0; i<9; i++) {
-            if(cross_sums[i] != min_val) {
-                if(next_to_min_val > cross_sums[i]) {
-                    next_to_min_val = cross_sums[i];
-                }
-            }
-        }
+        auto min_cross_sum_it = std::min_element(cross_sums.begin(), cross_sums.end());
+        int min_cross_index = min_cross_sum_it - cross_sums.begin();
 
-        //Add difference to reach next val
-        for(int i=0; i<9; i++) {
-            if(min_val == cross_sums[i]) {
-                //int increase = (next_to_min_val - min_val)/2;
-                //if(increase == 0)
-                //    increase = 1;
-                A[i] += 1;//increase; //Temporary for silver award
-                //std::cout << "Setting :" << A[i] << " to " << i << std::endl;
-                break;
-            }
-        }
+        int row_sum = row_col_sums[min_cross_index / 3];
+        int col_sum = row_col_sums[3 + (min_cross_index % 3)];
+
+        int bigger_sum = row_sum < col_sum ? col_sum : row_sum;
+
+        A[min_cross_index] += max_sum - bigger_sum;
     }
 
-    //std::cout << "Answer:" << std::endl;
-    //for(int i=0; i<9; i++) {
-    //    std::cout << A[i] << ", ";
-    //}
-    //std::cout << std::endl;
     return A;
 }
