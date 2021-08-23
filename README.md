@@ -5,7 +5,7 @@ Idea from: [pavlobcn/CodilityChallenge](https://github.com/pavlobcn/CodilityChal
 
 | Challenge | TaskName | Certificate | Place | Score (%) |
 | :-- | :-- | :-- | --:| --: |
-| [The Coder of Rivia](https://app.codility.com/programmers/challenges/the_coder_of_rivia_2021/) | [AlmostMagicSquare](/2021/TheCoderOfRivia) | [No Award](https://app.codility.com/cert/view/certRBANRJ-D95DQ64Y5T7NHSU8/details/) | - | 41 |
+| [The Coder of Rivia](https://app.codility.com/programmers/challenges/the_coder_of_rivia_2021/) | [AlmostMagicSquare](/2021/TheCoderOfRivia) | [Golden](https://app.codility.com/cert/view/certHCJRDN-RZDMY4ND7679J6UW/) | 188 | 100 |
 | [Fast & Curious](https://app.codility.com/programmers/challenges/fast_and_curious_2021/) | [NewMotorway](/2021/Fast&Curious) | [Golden](https://app.codility.com/cert/view/cert65FC5K-2WU84WEYK3XZPZV8/) | 83 | 100 |
 | [The Fellowship of the Code](https://app.codility.com/programmers/challenges/fellowship_of_the_code_2021/) | [PartialSort](2021/TheFellowshipOfTheCode) | [- (Test)](https://app.codility.com/demo/results/trainingB8JDC2-DZ2/) | - | 84 |
 | [May the 4th Challenge](https://app.codility.com/programmers/challenges/may_the_4th_2021/) | [DoubleHanoi](/2021/MayThe4thChallenge) | [Golden](https://app.codility.com/cert/view/cert6ZC6PK-5P2TPAJMY87U8CNK/) | 264 | 100 |
