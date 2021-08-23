@@ -74,10 +74,10 @@ vector<int> solution(vector<int> &A) {
         //Add difference to reach next val
         for(int i=0; i<9; i++) {
             if(min_val == cross_sums[i]) {
-                int increase = (next_to_min_val - min_val)/2;
-                if(increase == 0)
-                    increase = 1;
-                A[i] += increase;
+                //int increase = (next_to_min_val - min_val)/2;
+                //if(increase == 0)
+                //    increase = 1;
+                A[i] += 1;//increase; //Temporary for silver award
                 //std::cout << "Setting :" << A[i] << " to " << i << std::endl;
                 break;
             }
