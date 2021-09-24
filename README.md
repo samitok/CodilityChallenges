@@ -5,6 +5,7 @@ Idea from: [pavlobcn/CodilityChallenge](https://github.com/pavlobcn/CodilityChal
 
 | Challenge | TaskName | Certificate | Place | Score (%) |
 | :-- | :-- | :-- | --:| --: |
+| [National Coding Week](https://app.codility.com/programmers/challenges/national_coding_week_2021/) | [LargestString](/2021/NationalCodingWeek) | [Golden](https://app.codility.com/cert/view/certBNYMT7-95WN4DQH2QKNXDWB/) | 126 | 100 |
 | [The Coder of Rivia](https://app.codility.com/programmers/challenges/the_coder_of_rivia_2021/) | [AlmostMagicSquare](/2021/TheCoderOfRivia) | [Golden](https://app.codility.com/cert/view/certHCJRDN-RZDMY4ND7679J6UW/) | 188 | 100 |
 | [Fast & Curious](https://app.codility.com/programmers/challenges/fast_and_curious_2021/) | [NewMotorway](/2021/Fast&Curious) | [Golden](https://app.codility.com/cert/view/cert65FC5K-2WU84WEYK3XZPZV8/) | 83 | 100 |
 | [The Fellowship of the Code](https://app.codility.com/programmers/challenges/fellowship_of_the_code_2021/) | [PartialSort](2021/TheFellowshipOfTheCode) | [- (Test)](https://app.codility.com/demo/results/trainingB8JDC2-DZ2/) | - | 84 |
