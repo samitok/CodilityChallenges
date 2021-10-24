@@ -3,8 +3,10 @@ My C++ solutions to [Codility Challenges](https://app.codility.com/programmers/c
 
 Idea from: [pavlobcn/CodilityChallenge](https://github.com/pavlobcn/CodilityChallenge)
 
+
 | Challenge | TaskName | Certificate | Place | Score (%) |
 | :-- | :-- | :-- | --:| --: |
+| [Spooktober](https://app.codility.com/programmers/challenges/spooktober_2021/) | [StackOfCoins](/2021/StackOfCoins/solution.cpp) | [Golden](https://app.codility.com/cert/view/certF3UMH4-SEUHDNEDQFADTZZ9/) | 162 | 100 |
 | [National Coding Week](https://app.codility.com/programmers/challenges/national_coding_week_2021/) | [LargestString](/2021/NationalCodingWeek/solution.cpp) | [Golden](https://app.codility.com/cert/view/certBNYMT7-95WN4DQH2QKNXDWB/) | 126 | 100 |
 | [The Coder of Rivia](https://app.codility.com/programmers/challenges/the_coder_of_rivia_2021/) | [AlmostMagicSquare](/2021/TheCoderOfRivia/solution.cpp) | [Golden](https://app.codility.com/cert/view/certHCJRDN-RZDMY4ND7679J6UW/) | 188 | 100 |
 | [Fast & Curious](https://app.codility.com/programmers/challenges/fast_and_curious_2021/) | [NewMotorway](/2021/Fast&Curious/solution.cpp) | [Golden](https://app.codility.com/cert/view/cert65FC5K-2WU84WEYK3XZPZV8/) | 83 | 100 |
